@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+   
+}
+
+
+body{
+    background-color: rgb(56, 39, 39);
+    color: white;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+}
+
+
+
+.title h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    justify-content: flex-end;
+   
+     margin-top: 20px;
+    
+}
+.title h2{
+    font-weight: 100;
+    font-style: italic;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 2px 3px;
+    width: 800px;
+   
+     margin-top: 10px;
+    
+}
+
+
+
+.fun button {
+    height: 45px;
+    padding: 0 25px;
+    border: none;
+    outline: none;
+    background-color: #4e342e;        /* Dark Brown */
+    color: #ffffff;                   /* White Text */
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 8px;               /* Smooth round edges */
+    cursor: pointer;
+    margin-top: 70px;
+
+    /* Smooth animation */
+    transition: all 0.3s ease;
+    
+    /* Soft shadow */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.fun button:hover {
+    background-color: #3e2723;        /* Darker Brown on hover */
+    transform: translateY(-2px);      /* Light lift effect */
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
+}
+
+.fun button:active {
+    transform: translateY(0);         /* Pressed state */
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+}
+
+.fun{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.fun p{
+    font-family:  cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: aqua;
+    margin-top: 50px;
+    justify-content: center;
+}
