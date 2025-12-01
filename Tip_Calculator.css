@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+   
+}
+body{
+    background-color: rgb(127, 156, 146);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header h1{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 50px;
+ font-weight: bolder;
+ margin-top: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.bill p{
+    margin-bottom: 10px;
+    font-size: x-large;
+    text-align: center;
+}
+#billAmount{
+    margin-bottom: 30px;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+}
+.tip p{
+    margin-bottom: 10px;
+    font-size: x-large;
+    text-align: center;
+}
+#Tip{
+    margin-bottom: 30px;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+.calculate button{
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.total{
+    height: 100px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#totaltip{
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+#totalbill{
+    font-size: x-large;
+}
