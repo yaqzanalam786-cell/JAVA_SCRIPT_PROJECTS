@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+   
+}
+body{
+    background-color: rgb(224, 226, 240);
+    color: rgb(14, 13, 13);
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title h1 {
+    margin-top: 20px;
+    font-size: 50px;
+}
+.title h2 {
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.calculator{
+    height: 450px;
+    width: 40%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px;
+    
+}
+#number{
+    width: 90%;
+    height: 100px;
+    margin-left: 26px;
+
+    font-size: xx-large;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.line1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+    
+
+}
+#CE, #clear, #remove, #divide{
+    background-color: rgb(90, 88, 88);
+    height: 60px;
+    width: 24%;
+    color: rgb(255, 253, 250);
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+     font-size: xx-large;
+}
+
+.line2 {
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+}
+#seven, #eight, #nine, #multiply{
+    background-color: rgb(90, 88, 88);
+    height: 60px;
+    width: 24%;
+    color: rgb(255, 253, 250);
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+     font-size: xx-large;
+}
+
+.line3 {
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+}
+#four, #five, #six, #minus{
+    background-color: rgb(90, 88, 88);
+    height: 60px;
+    width: 24%;
+    color: rgb(255, 253, 250);
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+     font-size: xx-large;
+}
+
+.line4 {
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+}
+#one, #two, #three, #plus{
+    background-color: rgb(90, 88, 88);
+    height: 60px;
+    width: 24%;
+    color: rgb(255, 253, 250);
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+     font-size: xx-large;
+}
+
+.line5 {
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+}
+#plusMinus, #zero, #point, #equalto{
+    background-color: rgb(90, 88, 88);
+    height: 60px;
+    width: 24%;
+    color: rgb(255, 253, 250);
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+     font-size: xx-large;
+}
+
+
+    
