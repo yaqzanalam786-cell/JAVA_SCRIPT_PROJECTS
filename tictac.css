@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+   
+}
+body{
+    background-color: rgb(72, 72, 77);
+    color: rgb(14, 13, 13);
+}
+.title{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.title h1{
+    font-size: 60px;
+}
+#restart{
+    height: 50px;
+    width: 90px;
+    margin-left: 40px;
+    border: none;
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgb(46, 48, 189);
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+    transition: 
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background-color 0.25s ease;
+}
+#restart:hover{
+    transform: translateY(-5px);             
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
+    background-color: #f2f2f2;           
+}
+#restart:active{
+    transform: translateY(0px) scale(0.97);  
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.line1,.line2,.line3{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(62, 185, 241);
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+    color: black;
+    font-size: x-large;
+}
+.guide p{
+    text-align: center;
+    margin-top: 30px;
+    color:  rgb(62, 185, 241);
+    font-weight: bolder;
+    font-size: 25px;
+}
+#two{
+    margin-top: 20px;
+    width: 300px;
+    
+    margin-left: 540px;
+   
+}
+#one{
+    width: 300px;
+    margin-left: 540px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.rule{
+    text-align: center;
+    color:  rgb(62, 185, 241);
+    font-weight: bolder;
+    font-size: 25px;
+}
