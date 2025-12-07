@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+   
+}
+body{
+    background-color: rgb(202, 202, 212);
+    color: rgb(14, 13, 13);
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    padding: 30px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    
+}
+#search{
+    width: 40%;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: x-large;
+    cursor: pointer;
+}
+#weatherBox{
+    margin-left: 265px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+
+}
+#heading{
+    margin-top: 20px;
+    font-size: x-large;
+    
+}
+#temp{
+ margin-top: 80px;
+ display: flex;
+
+}
+#deg{
+   
+    font-size: 40px;
+    margin-right: 40px;
+}
+#det{
+    font-size: medium;
+    font-size: 40px;
+}
