@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cart</title>
+<style>
+    body{font-family:Arial; background:#f2f2f2;}
+    header{background:#232f3e; color:white; padding:15px; display:flex; justify-content:space-between; font-size:22px;}
+    header a{color:yellow; text-decoration:none; font-weight:bold;}
+    #items{padding:20px;}
+    .item{background:white; padding:15px; margin-bottom:10px; border-radius:8px; font-size:20px;}
+    .totalBox{font-size:26px; background:white; padding:20px; margin:20px; border-radius:8px; font-weight:bold;}
+</style>
+</head>
+<body>
+<header>
+    <h1>Your Cart</h1>
+    <a href="grocery.html">⬅ Back</a>
+</header>
+<div id="items"></div>
+<div class="totalBox">Total: $<span id="total">0</span></div>
+<script src="cart.js"></script>
+</body>
+</html>

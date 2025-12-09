@@ -62,6 +62,7 @@ Buttons.forEach((button)=>{
             }
             else if (e.target.id === "point"){
                 input.innerText += "."
+                
             }
   
 
